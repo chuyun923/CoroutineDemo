@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/container_ll"
+>
+
+    <Button
+            style="@style/main_item_style"
+            android:text="FirstDemo"
+    />
+
+    <Button
+            style="@style/main_item_style"
+            android:text="CoroutineBuilderDemo"
+    />
+
+    <Button
+            style="@style/main_item_style"
+            android:text="SuspendPoint"
+    />
+
+
+    <Button
+            style="@style/main_item_style"
+            android:text="TestInterceptor"
+    />
+
+    <Button
+            style="@style/main_item_style"
+            android:text="Networkdemo"
+    />
+
+
+</LinearLayout>
